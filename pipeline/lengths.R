@@ -3,10 +3,12 @@ library(ggplot2)
 table <- read.table("lengths.tsv", header = T)
 
 ggplot(table, aes(x = length, y = percent)) +
-  geom_col(fill = "#FFD500", alpha=0.5, width=0.65) +
-  scale_x_continuous(breaks = c(14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24)) +
-  ggtitle("smDNA length distribution") +
+  geom_col(fill = "turquoise4", alpha=0.7, width=0.65) +
+  scale_x_continuous(breaks = c(14, 16, 18, 20, 22, 24)) +
+  #  ggtitle("smDNA length distribution") +
   ylab("% of all aligned reads") +
+  scale_y_continuous(limits = c(0, 30), 
+                     breaks = c(0, 5, 10, 15, 20, 25, 30)) +
   xlab("length, nt") +
   theme(text = element_text(size = 30),
         panel.background = element_rect(fill = "white"),
@@ -15,8 +17,8 @@ ggplot(table, aes(x = length, y = percent)) +
         axis.text = element_text(size = 30, colour = 'black'),
         title = element_text(size = 30),
         plot.title = element_text(hjust = 0.5),
-        panel.grid.major.y = element_line(color = "gray33",
-                                          linetype = "longdash", 
+        panel.grid.major.y = element_line(color = "grey33",
+                                          linetype = "dashed", 
                                           size = 0.5))
 
-ggsave("lengths_distribution.png", width = 10, height = 10, dpi = 300)
+ggsave("lengths_distribution.png", width = 7, height = 7, dpi = 300)

@@ -38,6 +38,7 @@ chmod +x ./pipeline/filter_multimappers.py
 chmod +x ./pipeline/insert_intervals_after_normalization.py
 chmod +x ./pipeline/intervals_chi_logo_statistics.py
 chmod +x ./pipeline/normalize_multimappers.py
+chmod +x ./pipeline/gff2bed.py
 
 # First, the script will create reference sequence files for alignment and visualisation. This script will look for a directory named "reference" and two files in it: "genome.fa" and "plasmid.fa". Attention: the name of the genome sequence must be ">genome" and the plasmid sequence - ">plasmid"!
 # The script will combine the two fasta files in one and then make a bowtie index for it.
@@ -62,19 +63,30 @@ cp ./pipeline/lengths.R ./logo/
 
 mkdir alignment
 
-mkdir chi_metaplot
-cp ./pipeline/chi_metaplot.R ./chi_metaplot/
-cp ./pipeline/normalize_multimappers.py ./chi_metaplot/
-
 mkdir coverage_1000
 cp ./pipeline/coverage_1000.R ./coverage_1000/
 cp ./pipeline/normalize_multimappers.py ./coverage_1000/
 cp ./pipeline/insert_intervals_after_normalization.py ./coverage_1000/
 
 mkdir coverage_10000
-cp ./pipeline/coverage_10000.R ./coverage_10000/
 cp ./pipeline/normalize_multimappers.py ./coverage_10000/
 cp ./pipeline/insert_intervals_after_normalization.py ./coverage_10000/
+
+mkdir genes_coverage
+cp ./pipeline/genes_coverage.R ./genes_coverage/
+cp ./pipeline/normalize_multimappers.py ./genes_coverage/
+
+mkdir intergenic_coverage
+cp ./pipeline/intergenic_coverage.R ./intergenic_coverage/
+cp ./pipeline/normalize_multimappers.py ./intergenic_coverage/
+
+
+# Now the script will look into reference directory again and look for genome.gff3 file to make BED files with genes and intergenic regions.
+echo 'Preparing BED files with genes and intergenic intervals.'
+grep -P "\tRefSeq\t" ./ref_tmp/genome.gff3 | grep -P "\tgene\t" > ./ref_tmp/genes.gff3
+cd ./pipeline
+python ./gff2bed.py
+cd ../
 
 
 # The following part of the script will launch the series of alignments using different bowtie options. First it alignes all reads to the reference with -k 1 option and filters out unaligned reads.
@@ -109,14 +121,14 @@ echo 'Calculating alignment statisitcs'
 samtools view final_sorted.bam | cut -f 1 | sort | uniq -c | sed 's/^[ ]*//' | sed 's/ /\t/' > counts.tsv # This line makes a TXT file that contains the information of how many sites each read is mapped to.
 samtools view final_sorted.bam | cut -f 1 | sort | uniq | wc -l > total_reads_aligned.txt # Creates a file with the number of reads mapped to the reference
 cp total_reads_aligned.txt ../coverage_1000/
-cp total_reads_aligned.txt ../coverage_10000/
-cp total_reads_aligned.txt ../chi_metaplot/
+cp total_reads_aligned.txt ../genes_coverage/
+cp total_reads_aligned.txt ../intergenic_coverage/
 samtools view final_sorted.bam | grep -P  '\tgenome\t' | cut -f 1 | sort | uniq | wc -l > ./aligned_on_genome.txt # Creates a file with the number of reads mapped to the genome
 samtools view final_sorted.bam | grep -P  '\tplasmid\t' | cut -f 1 | sort | uniq | wc -l > ./aligned_on_plasmid.txt # Creates a file with the number of reads mapped to the plasmid
 # Making BAM files for plus and minus strands
 samtools view -F 16 -b final_sorted.bam > plus.bam
 samtools view -f 16 -b final_sorted.bam > minus.bam
-python -W ignore ../pipeline/intervals_chi_logo_statistics.py  # Prepares tables for read length distribution and logo, GC-content around mapped reads, chi-metaplot and calculates alignment statistics.
+python -W ignore ../pipeline/intervals_chi_logo_statistics.py  # Prepares tables for read length distribution and logo, GC-content around mapped reads and calculates alignment statistics.
 echo 'Alignment statistics is calculated.'
 rm *.fastq
 rm ../logo/aligned.fastq
@@ -136,6 +148,7 @@ bedtools intersect -a intervals.bed -b ../alignment/plus.bam -wa -wb -F 0.5 > in
 bedtools intersect -a intervals.bed -b ../alignment/minus.bam -wa -wb -F 0.5 > intersected.tsv
 ./normalize_multimappers.py > normalized.tsv
 ./insert_intervals_after_normalization.py > minus_coverage.tsv
+rm intersected.tsv
 rm normalized.tsv
 rm *.py
 
@@ -154,7 +167,52 @@ bedtools intersect -a intervals.bed -b ../alignment/plus.bam -wa -wb -F 0.5 > in
 bedtools intersect -a intervals.bed -b ../alignment/minus.bam -wa -wb -F 0.5 > intersected.tsv
 ./normalize_multimappers.py > normalized.tsv
 ./insert_intervals_after_normalization.py > minus_coverage.tsv
+rm intersected.tsv
 rm normalized.tsv
+rm *.py
+
+
+echo 'Calculating coverage of genes.'
+cd ../genes_coverage
+
+# Intersect all aligned reads with the genes co-directed with replication:
+# First, reads in sense direction:
+bedtools intersect -a co_genes.bed -b ../alignment/final_sorted.bam -wa -wb -s -F 0.51 | cut -f 1,2,3,4,7,8,9,10,11,12 > intersected.tsv
+./normalize_multimappers.py > sense_co.tsv
+# Then reads in antisense direction:
+bedtools intersect -a co_genes.bed -b ../alignment/final_sorted.bam -wa -wb -S -F 0.51 | cut -f 1,2,3,4,7,8,9,10,11,12 > intersected.tsv
+./normalize_multimappers.py > antisense_co.tsv
+
+# Intersect all aligned reads with the genes directed opposite to replication:
+# First, reads in sense direction:
+bedtools intersect -a rev_genes.bed -b ../alignment/final_sorted.bam -wa -wb -s -F 0.51 | cut -f 1,2,3,4,7,8,9,10,11,12 > intersected.tsv
+./normalize_multimappers.py > sense_rev.tsv
+# Then reads in antisense direction:
+bedtools intersect -a rev_genes.bed -b ../alignment/final_sorted.bam -wa -wb -S -F 0.51 | cut -f 1,2,3,4,7,8,9,10,11,12 > intersected.tsv
+./normalize_multimappers.py > antisense_rev.tsv
+
+rm intersected.tsv
+rm *.py
+
+echo 'Calculating coverage of intergenic regions.'
+cd ../intergenic_coverage
+# Intersect all aligned reads with the intervals between the neighbouring convergent genes
+bedtools intersect -a conv.bed -b ../alignment/final_sorted.bam -wa -wb -F 0.51 > intersected.tsv
+./normalize_multimappers.py > conv_coverage.tsv
+
+# Intersect all aligned reads with the intervals between the neighbouring divergent genes
+bedtools intersect -a div.bed -b ../alignment/final_sorted.bam -wa -wb -F 0.51 > intersected.tsv
+./normalize_multimappers.py > div_coverage.tsv
+
+# Intersect all aligned reads with the intervals between the neighbouring genes in positive orientation 
+bedtools intersect -a plus.bed -b ../alignment/final_sorted.bam -wa -wb -F 0.51 > intersected.tsv
+./normalize_multimappers.py > plus_coverage.tsv
+
+# Intersect all aligned reads with the intervals between the neighbouring genes in negative orientation
+bedtools intersect -a minus.bed -b ../alignment/final_sorted.bam -wa -wb -F 0.51 > intersected.tsv
+./normalize_multimappers.py > minus_coverage.tsv
+
+rm intersected.tsv
 rm *.py
 
 

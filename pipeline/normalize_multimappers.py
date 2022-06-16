@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # This script takes for input intersected.tsv file with reads intersected with intervals and counts.tsv file with information about number of sites where each read is mapped to.
-# Next, each read receives a count as 1/(number of sites). It's always 1 for uniquely mapped reads and a number between > 0 and < 1 for a multimapper.
+# Next, each read receives a count as 1/(number of sites). It's always 1 for uniquely mapped reads and a number > 0 and < 1 for a multimapper.
 # The script prints as output a tab-separated table with two columns: interval name and number of aligned reads.
 
 import pandas as pd
