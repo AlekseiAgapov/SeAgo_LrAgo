@@ -12,13 +12,14 @@ ggplot(table, aes(x = length, y = percent)) +
   xlab("length, nt") +
   theme(text = element_text(size = 30),
         panel.background = element_rect(fill = "white"),
-        axis.line = element_line(size = 1),
-        axis.ticks = element_line(size = 1),
+        axis.line = element_line(size = 2),
+        axis.ticks = element_line(size = 2),
+        axis.ticks.length = unit(0.3, "cm"),
         axis.text = element_text(size = 30, colour = 'black'),
+        axis.title = element_text(size = 30),
         title = element_text(size = 30),
-        plot.title = element_text(hjust = 0.5),
-        panel.grid.major.y = element_line(color = "grey33",
+        panel.grid.major.y = element_line(color = "grey66",
                                           linetype = "dashed", 
                                           size = 0.5))
 
-ggsave("lengths_distribution.png", width = 7, height = 7, dpi = 300)
+ggsave("lengths_distribution.png", width = 10, height = 7, dpi = 300)

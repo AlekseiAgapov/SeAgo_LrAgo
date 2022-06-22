@@ -58,7 +58,6 @@ ggplot(df_sub, aes(x = interval_name, y = RPKM)) +
   ggtitle("coverage of intergenic regions") +
   scale_x_continuous(breaks = c(0, 500000, 1000000, 1500000, 2000000, 2500000, 3000000, 3500000, 4000000, 4500000),
                      labels = c(0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5)) +
-  scale_y_continuous(limits = c(0, 1000)) +
   geom_hline(yintercept = conv_coverage, linetype = "dashed", colour = "coral2") +
   geom_hline(yintercept = div_coverage, linetype = "dashed", colour = "chartreuse4") +
   theme(text = element_text(size = 23),

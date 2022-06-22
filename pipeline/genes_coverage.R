@@ -10,7 +10,7 @@ df_sense_co$dir <- "sense"
 
 df_sense_rev <- read.table("sense_rev.tsv", header = T)
 df_sense_rev$RPKM <- df_sense_rev$coverage/df_sense_rev$interval_length*1000/total_reads_number*1000000
-df_sense_rev$rep <- "reversly directed"
+df_sense_rev$rep <- "reversely directed"
 df_sense_rev$dir <- "sense"
 
 df_antisense_co <- read.table("antisense_co.tsv", header = T)

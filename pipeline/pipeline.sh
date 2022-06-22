@@ -215,8 +215,16 @@ bedtools intersect -a minus.bed -b ../alignment/final_sorted.bam -wa -wb -F 0.51
 rm intersected.tsv
 rm *.py
 
-
 cd ../
+
+echo 'Calculating 1-nt resolution coverage.'
+mkdir 1_nt_resolution
+cp ./pipeline/1_nt_resolution.R ./1_nt_resolution/1_nt_resolution.R
+bedtools genomecov -d -ibam ./alignment/final_sorted.bam | grep "genome" | awk '{sum += $3} END {print sum/NR}' > ./1_nt_resolution/average_cov.txt
+bedtools genomecov -d -ibam ./alignment/plus.bam | grep "genome" > ./1_nt_resolution/plus_cov.tsv
+bedtools genomecov -d -ibam ./alignment/minus.bam | grep "genome" > ./1_nt_resolution/minus_cov.tsv
+
+
 rm -r pipeline
 rm -r ref_tmp
 
