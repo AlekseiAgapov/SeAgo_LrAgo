@@ -30,7 +30,7 @@ df$dir <- as.factor(df$dir)
 ggplot(df, aes(x = dir, y = RPKM)) +
   geom_boxplot(aes(fill = dir)) +
   ylab("RPKM") +
-  scale_y_continuous(limits = c(0, 200)) +
+  scale_y_continuous(limits = c(0, 300)) +
 #  scale_y_continuous(trans = "log10") +
   scale_x_discrete(name = "",
                    breaks = c("antisense", "sense"),
@@ -38,7 +38,6 @@ ggplot(df, aes(x = dir, y = RPKM)) +
   scale_fill_manual(breaks = c("antisense", "sense"),
                     values = c("salmon", "turquoise"),
                     name = "") +
-  ggtitle("coverage of genes depending on their\norientation respective to replication") +
   facet_wrap(~rep) +
   theme(text = element_text(size = 40),
         panel.background = element_rect(fill = "white"),
@@ -46,12 +45,6 @@ ggplot(df, aes(x = dir, y = RPKM)) +
         axis.ticks = element_line(size = 1),
         axis.ticks.length.y.left = unit(0.3, "cm"),
         axis.ticks.length.x = unit(0, "cm"),
-        axis.text = element_text(size = 40, colour = 'black'),
-        title = element_text(size = 40),
-        plot.title = element_text(hjust = 0.3),
-        strip.background = element_rect(fill = "white"),
-        panel.grid.major.y = element_line(color = "white",
-                                          linetype = "longdash", 
-                                          size = 0.3))
+        axis.text = element_text(size = 40, colour = 'black'))
 
 ggsave("boxplot_rep_dir.png", width = 13, height = 7, dpi = 400)

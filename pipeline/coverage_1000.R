@@ -25,12 +25,7 @@ df$interval_name <- df$interval_name * 1000
 #         axis.line = element_line(size = 2),
 #         axis.ticks = element_line(size = 1.5),
 #         axis.ticks.length = unit(0.3, "cm"),
-#         axis.text = element_text(size = 40, colour = 'black'),
-#         title = element_text(size = 40),
-#         plot.title = element_text(hjust = 0.5),
-#         panel.grid.major.y = element_line(color = "white",
-#                                           linetype = "longdash", 
-#                                           size = 0.3))
+#         axis.text = element_text(size = 40, colour = 'black'))
 # 
 # ggsave("both.png", width = 15, height = 10, dpi = 400)
 
@@ -60,12 +55,7 @@ ggplot(df_comb, aes(x = df.interval_name)) +
         axis.line = element_line(size = 2),
         axis.ticks = element_line(size = 1.5),
         axis.ticks.length = unit(0.3, "cm"),
-        axis.text = element_text(size = 40, colour = 'black'),
-        title = element_text(size = 40),
-        plot.title = element_text(hjust = 0.5),
-        panel.grid.major.y = element_line(color = "white",
-                                          linetype = "longdash", 
-                                          size = 0.3))
+        axis.text = element_text(size = 40, colour = 'black'))
 
 ggsave("plus_minus.png", width = 15, height = 10, dpi = 400)
 
@@ -95,12 +85,7 @@ ggplot(df_comb, aes(x = df.interval_name)) +
         axis.line = element_line(size = 2),
         axis.ticks = element_line(size = 1.5),
         axis.ticks.length = unit(0.3, "cm"),
-        axis.text = element_text(size = 40, colour = 'black'),
-        title = element_text(size = 40),
-        plot.title = element_text(hjust = 0.5),
-        panel.grid.major.y = element_line(color = "white",
-                                          linetype = "longdash", 
-                                          size = 0.3))
+        axis.text = element_text(size = 40, colour = 'black'))
 
 ggsave("Ter_region.png", width = 15, height = 10, dpi = 400)
 

@@ -226,6 +226,70 @@ minus_df = pd.DataFrame(minus_strand_chi)
 minus_df.to_csv('../coverage_1000/minus_chi.txt', header=False, index=False, sep='\t')
 
 
+# Select only those chi-sites that are not in the interval 1200000-1700000 nt.
+
+def site_slice(coordinate_list, start, end):
+    '''
+    This function takes a list of coordinate and two numbers: start and end.
+    It returns another list with those coordinates that fit in the interval [start:end].
+    '''
+    result_list = []
+    for coordinate in coordinate_list:
+        if (10000 < coordinate < start) or (end < coordinate < genome_length - 10000):
+            result_list.append(coordinate)
+            
+    return result_list
+
+plus_strand = site_slice(plus_strand_chi, 1200000, 1700000)
+minus_strand = site_slice(minus_strand_chi, 1200000, 1700000) 
+
+
+# Create BED files with intervals around chi-sites (interval length - 500 nt, number of intervals - 40).
+
+# BED file for positive-oriented chi-sites.
+chr_name = []
+interval_start = []
+interval_end = []
+interval_name = []
+
+for coordinate in plus_strand:
+    coordinate = coordinate - 10000
+    step = 500
+    interval_number = 1
+    while interval_number <= 40:
+        chr_name.append('genome')
+        interval_start.append(coordinate)
+        interval_end.append(coordinate + step)
+        interval_name.append(interval_number)
+        coordinate += step
+        interval_number += 1
+
+df = pd.DataFrame({'chr_name': chr_name, 'interval_start': interval_start, 'interval_end': interval_end, 'interval_name': interval_name})
+df.to_csv('../chi_metaplot/plus_intervals.bed', header=False, index=False, sep='\t')
+
+# BED file for negative-oriented chi-sites.
+chr_name = []
+interval_start = []
+interval_end = []
+interval_name = []
+
+for coordinate in minus_strand:
+    coordinate = coordinate + 9500
+    step = 500
+    interval_number = 1
+    while interval_number <= 40:
+        chr_name.append('genome')
+        interval_start.append(coordinate)
+        interval_end.append(coordinate + step)
+        interval_name.append(interval_number)
+        coordinate -= step
+        interval_number += 1
+
+df = pd.DataFrame({'chr_name': chr_name, 'interval_start': interval_start, 'interval_end': interval_end, 'interval_name': interval_name})
+df.to_csv('../chi_metaplot/minus_intervals.bed', header=False, index=False, sep='\t')
+
+print('Chi-sites have been found. BED files are ready.')
+
 
 plasmid_copy_number = 12 # plasmid copy number
 

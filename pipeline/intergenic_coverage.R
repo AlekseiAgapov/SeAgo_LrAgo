@@ -31,44 +31,12 @@ ggplot(df, aes(x = type, y = RPKM)) +
   geom_boxplot(aes(fill = factor(type))) +
   ylab("RPKM") +
   xlab("type") +
-  ggtitle("coverage of intergenic regions") +
-  scale_y_continuous(limits = c(0, 300)) +
+  scale_y_continuous(limits = c(0, 400)) +
   theme(text = element_text(size = 40),
         panel.background = element_rect(fill = "white"),
         axis.line = element_line(size = 2),
         axis.ticks = element_line(size = 1.5),
         axis.ticks.length = unit(0.3, "cm"),
-        axis.text = element_text(size = 40, colour = 'black'),
-        title = element_text(size = 40),
-        plot.title = element_text(hjust = 0.5),
-        panel.grid.major.y = element_line(color = "white",
-                                          linetype = "longdash", 
-                                          size = 0.3))
+        axis.text = element_text(size = 40, colour = 'black'))
 
 ggsave("boxplot.png", width = 17, height = 10, dpi = 400)
-
-df_sub <- rbind(subset(df_div, interval_name >= 1700000 | interval_name <= 1267000), subset(df_conv, interval_name >= 1700000 | interval_name <= 1267000))
-
-ggplot(df_sub, aes(x = interval_name, y = RPKM)) +
-  geom_point(aes(col = factor(type)), alpha = 0.5) +
-  scale_color_manual(breaks = c('convergent', 'divergent'),
-                     values=c("coral2", "chartreuse4")) +
-  ylab("RPKM") +
-  xlab("chromosome coordinate, Mb") +
-  ggtitle("coverage of intergenic regions") +
-  scale_x_continuous(breaks = c(0, 500000, 1000000, 1500000, 2000000, 2500000, 3000000, 3500000, 4000000, 4500000),
-                     labels = c(0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5)) +
-  geom_hline(yintercept = conv_coverage, linetype = "dashed", colour = "coral2") +
-  geom_hline(yintercept = div_coverage, linetype = "dashed", colour = "chartreuse4") +
-  theme(text = element_text(size = 23),
-        panel.background = element_rect(fill = "white"),
-        axis.line = element_line(size = 1),
-        axis.ticks = element_line(size = 1),
-        axis.text = element_text(size = 18, colour = 'black'),
-        title = element_text(size = 20),
-        plot.title = element_text(hjust = 0.5),
-        panel.grid.major.y = element_line(color = "white",
-                                          linetype = "longdash", 
-                                          size = 0.3))
-
-ggsave("scatter_plot.png", width = 15, height = 5, dpi = 600)

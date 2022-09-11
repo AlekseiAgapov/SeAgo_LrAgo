@@ -63,6 +63,10 @@ cp ./pipeline/lengths.R ./logo/
 
 mkdir alignment
 
+mkdir chi_metaplot
+cp ./pipeline/chi_metaplot.R ./chi_metaplot/
+cp ./pipeline/normalize_multimappers.py ./chi_metaplot/
+
 mkdir coverage_1000
 cp ./pipeline/coverage_1000.R ./coverage_1000/
 cp ./pipeline/normalize_multimappers.py ./coverage_1000/
@@ -121,6 +125,7 @@ echo 'Calculating alignment statisitcs'
 samtools view final_sorted.bam | cut -f 1 | sort | uniq -c | sed 's/^[ ]*//' | sed 's/ /\t/' > counts.tsv # This line makes a TXT file that contains the information of how many sites each read is mapped to.
 samtools view final_sorted.bam | cut -f 1 | sort | uniq | wc -l > total_reads_aligned.txt # Creates a file with the number of reads mapped to the reference
 cp total_reads_aligned.txt ../coverage_1000/
+cp total_reads_aligned.txt ../chi_metaplot/
 cp total_reads_aligned.txt ../genes_coverage/
 cp total_reads_aligned.txt ../intergenic_coverage/
 samtools view final_sorted.bam | grep -P  '\tgenome\t' | cut -f 1 | sort | uniq | wc -l > ./aligned_on_genome.txt # Creates a file with the number of reads mapped to the genome
@@ -171,24 +176,40 @@ rm intersected.tsv
 rm normalized.tsv
 rm *.py
 
+echo 'Calculating coverage around chi-sites.'
+cd ../chi_metaplot
+# Intersect reads mapped to the genome in positive orientation with intervals around chi-sites on positive strand.
+bedtools intersect -a plus_intervals.bed -b ../alignment/plus.bam -wa -wb -F 0.51 > intersected.tsv
+./normalize_multimappers.py > plus_plus.tsv
+# Intersect reads mapped to the genome in negative orientation with intervals around chi-sites on positive strand.
+bedtools intersect -a plus_intervals.bed -b ../alignment/minus.bam -wa -wb -F 0.51 > intersected.tsv
+./normalize_multimappers.py > minus_plus.tsv
+# Intersect reads mapped to the genome in negative orientation with intervals around chi-sites on negative strand.
+bedtools intersect -a minus_intervals.bed -b ../alignment/minus.bam -wa -wb -F 0.51 > intersected.tsv
+./normalize_multimappers.py > minus_minus.tsv
+# Intersect reads mapped to the genome in positive orientation with intervals around chi-sites on negative strand.
+bedtools intersect -a minus_intervals.bed -b ../alignment/plus.bam -wa -wb -F 0.51 > intersected.tsv
+./normalize_multimappers.py > plus_minus.tsv
+rm *.py
+
 
 echo 'Calculating coverage of genes.'
 cd ../genes_coverage
 
 # Intersect all aligned reads with the genes co-directed with replication:
 # First, reads in sense direction:
-bedtools intersect -a co_genes.bed -b ../alignment/final_sorted.bam -wa -wb -s -F 0.51 | cut -f 1,2,3,4,7,8,9,10,11,12 > intersected.tsv
+bedtools intersect -a co_genes.bed -b ../alignment/final_sorted.bam -wa -wb -s | cut -f 1,2,3,4,7,8,9,10,11,12 > intersected.tsv
 ./normalize_multimappers.py > sense_co.tsv
 # Then reads in antisense direction:
-bedtools intersect -a co_genes.bed -b ../alignment/final_sorted.bam -wa -wb -S -F 0.51 | cut -f 1,2,3,4,7,8,9,10,11,12 > intersected.tsv
+bedtools intersect -a co_genes.bed -b ../alignment/final_sorted.bam -wa -wb -S | cut -f 1,2,3,4,7,8,9,10,11,12 > intersected.tsv
 ./normalize_multimappers.py > antisense_co.tsv
 
 # Intersect all aligned reads with the genes directed opposite to replication:
 # First, reads in sense direction:
-bedtools intersect -a rev_genes.bed -b ../alignment/final_sorted.bam -wa -wb -s -F 0.51 | cut -f 1,2,3,4,7,8,9,10,11,12 > intersected.tsv
+bedtools intersect -a rev_genes.bed -b ../alignment/final_sorted.bam -wa -wb -s | cut -f 1,2,3,4,7,8,9,10,11,12 > intersected.tsv
 ./normalize_multimappers.py > sense_rev.tsv
 # Then reads in antisense direction:
-bedtools intersect -a rev_genes.bed -b ../alignment/final_sorted.bam -wa -wb -S -F 0.51 | cut -f 1,2,3,4,7,8,9,10,11,12 > intersected.tsv
+bedtools intersect -a rev_genes.bed -b ../alignment/final_sorted.bam -wa -wb -S | cut -f 1,2,3,4,7,8,9,10,11,12 > intersected.tsv
 ./normalize_multimappers.py > antisense_rev.tsv
 
 rm intersected.tsv
@@ -197,33 +218,25 @@ rm *.py
 echo 'Calculating coverage of intergenic regions.'
 cd ../intergenic_coverage
 # Intersect all aligned reads with the intervals between the neighbouring convergent genes
-bedtools intersect -a conv.bed -b ../alignment/final_sorted.bam -wa -wb -F 0.51 > intersected.tsv
+bedtools intersect -a conv.bed -b ../alignment/final_sorted.bam -wa -wb > intersected.tsv
 ./normalize_multimappers.py > conv_coverage.tsv
 
 # Intersect all aligned reads with the intervals between the neighbouring divergent genes
-bedtools intersect -a div.bed -b ../alignment/final_sorted.bam -wa -wb -F 0.51 > intersected.tsv
+bedtools intersect -a div.bed -b ../alignment/final_sorted.bam -wa -wb > intersected.tsv
 ./normalize_multimappers.py > div_coverage.tsv
 
 # Intersect all aligned reads with the intervals between the neighbouring genes in positive orientation 
-bedtools intersect -a plus.bed -b ../alignment/final_sorted.bam -wa -wb -F 0.51 > intersected.tsv
+bedtools intersect -a plus.bed -b ../alignment/final_sorted.bam -wa -wb > intersected.tsv
 ./normalize_multimappers.py > plus_coverage.tsv
 
 # Intersect all aligned reads with the intervals between the neighbouring genes in negative orientation
-bedtools intersect -a minus.bed -b ../alignment/final_sorted.bam -wa -wb -F 0.51 > intersected.tsv
+bedtools intersect -a minus.bed -b ../alignment/final_sorted.bam -wa -wb > intersected.tsv
 ./normalize_multimappers.py > minus_coverage.tsv
 
 rm intersected.tsv
 rm *.py
 
 cd ../
-
-echo 'Calculating 1-nt resolution coverage.'
-mkdir 1_nt_resolution
-cp ./pipeline/1_nt_resolution.R ./1_nt_resolution/1_nt_resolution.R
-bedtools genomecov -d -ibam ./alignment/final_sorted.bam | grep "genome" | awk '{sum += $3} END {print sum/NR}' > ./1_nt_resolution/average_cov.txt
-bedtools genomecov -d -ibam ./alignment/plus.bam | grep "genome" > ./1_nt_resolution/plus_cov.tsv
-bedtools genomecov -d -ibam ./alignment/minus.bam | grep "genome" > ./1_nt_resolution/minus_cov.tsv
-
 
 rm -r pipeline
 rm -r ref_tmp
