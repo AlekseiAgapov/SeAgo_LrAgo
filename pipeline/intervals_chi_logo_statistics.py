@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 # This script is a part of a pipeline for calculation and visualization of illumina reads parameters and distribution along the reference DNA. It does several things:
 # 1. Creates BED files with equal intervals of length 1000 and 10000 nt for the genome.
-# 2. Calculates GC-content for each DNA from reference genome.
-# 3. Calculates reads length distribution.
-# 4. Prepares TXT file for reads logo calculation.
-# 5. Calculates GC-content for each position in the window -15 : +35 nucleotides from 5'-end of the mapped read.
-# 6. Finds chi-sites in the genome.
-# 7. Calculates alignment statistics and write it in a TSV file.
+# 2. Creares BED files with genes and intergenic intervals in the genome.
+# 3. Calculates GC-content for each DNA from reference genome.
+# 4. Calculates reads length distribution.
+# 5. Prepares TXT file for reads logo calculation.
+# 6. Calculates GC-content for each position in the window -15 : +35 nucleotides from 5'-end of the mapped read.
+# 7. Finds chi-sites in the genome.
+# 8. Calculates alignment statistics and write it in a TSV file.
 
 import pandas as pd
 
