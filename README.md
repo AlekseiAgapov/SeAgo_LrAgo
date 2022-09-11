@@ -8,7 +8,7 @@ This repository contains scripts that align NGS reads to the reference DNA and p
 ## How to use it?
 
 
-Script reads_preprocessing.sh starts reads quality control with FastQC, then remove adaptors with cutadapt and makes quality control once again. For input one should specify (with `-d` argument) a path to a directory that contains single fq.gz file with reads. Output - directories with FastQC output and trimmed.fastq.gz file with the processed reads. **It is important to check the quality of the processed reads and manually adjust cutadapt arguments if needed.**
+Script reads_preprocessing.sh starts reads quality control with FastQC, then removes adaptors with cutadapt and makes quality control once again. For input one should specify (with `-d` argument) a path to a directory that contains single fq.gz file with reads. Output - directories with FastQC output and trimmed.fastq.gz file with the processed reads. **It is important to check the quality of the processed reads and manually adjust cutadapt arguments if needed.**
 
 Bash script pipeline.sh in the <pipeline> directory launches the code. The script has two arguments:
  
