@@ -23,7 +23,14 @@ The result will be the following plots:
 - aligned reads logo
 - GC-content along the guide length and in surrounding sequences of chromosomal DNA
 - length distribution of the aligned reads
-- coverage of genes and intergenic regions wirh smDNA
+- coverage of genes and intergenic regions with smDNA
+
+
+Directory <revision> contains scripts written by Dmitry Sutormin at the revision stage. These scripts are used to produce the following plots:
+- metaplot of small DNA reads coverage of regions around Chi-sites
+- metaplot of small DNA reads coverage of regions around gyrase cleavage sites
+- metaplots of small DNA reads coverage of genes and intergenic regions
+
 
 ## Requirements
 This script utilizes some commonly used programs for data analysis and NGS analysis:
@@ -35,6 +42,7 @@ This script utilizes some commonly used programs for data analysis and NGS analy
 - bedtools https://github.com/arq5x/bedtools2
 - ggplot2 library for R https://github.com/tidyverse/ggplot2
 - ggseqlogo library for R https://github.com/omarwagih/ggseqlogo
+- blast+ https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download
 
  ## Where to find the data that was processed with this code?
  The raw sequencing reads are deposited in SRA in the BioProject PRJNA878808.
