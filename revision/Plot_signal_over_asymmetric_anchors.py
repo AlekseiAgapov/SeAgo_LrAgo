@@ -102,73 +102,7 @@ Wig_data_in_dict={'Cfx_0.01_Lr_5.5_cip_F'               :    PWD + 'Chi_anchor_a
                   'Cfx_0.01_Se_5.5_nocip_RnN'           :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_nocip_R_over_Cfx_0.01_RnN_width_50000bp.wig',
                   'Cfx_0.01_Se_12.5_nocip_FnN'          :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_nocip_F_over_Cfx_0.01_FnN_width_50000bp.wig',
                   'Cfx_0.01_Se_12.5_nocip_RnN'          :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_nocip_R_over_Cfx_0.01_RnN_width_50000bp.wig',
-                                                                                        
-                  'Cfx_0.01_top_955_Lr_5.5_cip_FN'      :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_cip_F_over_Cfx_0.01_top_955_FN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Lr_5.5_cip_RN'      :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_cip_R_over_Cfx_0.01_top_955_RN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Lr_12.5_cip_FN'     :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_cip_F_over_Cfx_0.01_top_955_FN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Lr_12.5_cip_RN'     :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_cip_R_over_Cfx_0.01_top_955_RN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Lr_5.5_nocip_FN'    :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_nocip_F_over_Cfx_0.01_top_955_FN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Lr_5.5_nocip_RN'    :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_nocip_R_over_Cfx_0.01_top_955_RN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Lr_12.5_nocip_FN'   :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_nocip_F_over_Cfx_0.01_top_955_FN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Lr_12.5_nocip_RN'   :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_nocip_R_over_Cfx_0.01_top_955_RN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Se_5.5_cip_FN'      :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_cip_F_over_Cfx_0.01_top_955_FN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Se_5.5_cip_RN'      :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_cip_R_over_Cfx_0.01_top_955_RN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Se_12.5_cip_FN'     :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_cip_F_over_Cfx_0.01_top_955_FN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Se_12.5_cip_RN'     :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_cip_R_over_Cfx_0.01_top_955_RN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Se_5.5_nocip_FN'    :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_nocip_F_over_Cfx_0.01_top_955_FN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Se_5.5_nocip_RN'    :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_nocip_R_over_Cfx_0.01_top_955_RN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Se_12.5_nocip_FN'   :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_nocip_F_over_Cfx_0.01_top_955_FN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Se_12.5_nocip_RN'   :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_nocip_R_over_Cfx_0.01_top_955_RN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Lr_5.5_cip_FnN'     :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_cip_F_over_Cfx_0.01_top_955_FnN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Lr_5.5_cip_RnN'     :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_cip_R_over_Cfx_0.01_top_955_RnN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Lr_12.5_cip_FnN'    :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_cip_F_over_Cfx_0.01_top_955_FnN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Lr_12.5_cip_RnN'    :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_cip_R_over_Cfx_0.01_top_955_RnN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Lr_5.5_nocip_FnN'   :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_nocip_F_over_Cfx_0.01_top_955_FnN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Lr_5.5_nocip_RnN'   :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_nocip_R_over_Cfx_0.01_top_955_RnN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Lr_12.5_nocip_FnN'  :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_nocip_F_over_Cfx_0.01_top_955_FnN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Lr_12.5_nocip_RnN'  :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_nocip_R_over_Cfx_0.01_top_955_RnN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Se_5.5_cip_FnN'     :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_cip_F_over_Cfx_0.01_top_955_FnN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Se_5.5_cip_RnN'     :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_cip_R_over_Cfx_0.01_top_955_RnN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Se_12.5_cip_FnN'    :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_cip_F_over_Cfx_0.01_top_955_FnN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Se_12.5_cip_RnN'    :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_cip_R_over_Cfx_0.01_top_955_RnN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Se_5.5_nocip_FnN'   :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_nocip_F_over_Cfx_0.01_top_955_FnN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Se_5.5_nocip_RnN'   :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_nocip_R_over_Cfx_0.01_top_955_RnN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Se_12.5_nocip_FnN'  :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_nocip_F_over_Cfx_0.01_top_955_FnN_width_50000bp.wig',
-                  'Cfx_0.01_top_955_Se_12.5_nocip_RnN'  :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_nocip_R_over_Cfx_0.01_top_955_RnN_width_50000bp.wig',
-                                                                                        
-                  'Cfx_0.01_bot_955_Lr_5.5_cip_FN'      :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_cip_F_over_Cfx_0.01_bot_955_FN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Lr_5.5_cip_RN'      :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_cip_R_over_Cfx_0.01_bot_955_RN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Lr_12.5_cip_FN'     :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_cip_F_over_Cfx_0.01_bot_955_FN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Lr_12.5_cip_RN'     :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_cip_R_over_Cfx_0.01_bot_955_RN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Lr_5.5_nocip_FN'    :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_nocip_F_over_Cfx_0.01_bot_955_FN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Lr_5.5_nocip_RN'    :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_nocip_R_over_Cfx_0.01_bot_955_RN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Lr_12.5_nocip_FN'   :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_nocip_F_over_Cfx_0.01_bot_955_FN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Lr_12.5_nocip_RN'   :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_nocip_R_over_Cfx_0.01_bot_955_RN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Se_5.5_cip_FN'      :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_cip_F_over_Cfx_0.01_bot_955_FN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Se_5.5_cip_RN'      :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_cip_R_over_Cfx_0.01_bot_955_RN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Se_12.5_cip_FN'     :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_cip_F_over_Cfx_0.01_bot_955_FN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Se_12.5_cip_RN'     :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_cip_R_over_Cfx_0.01_bot_955_RN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Se_5.5_nocip_FN'    :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_nocip_F_over_Cfx_0.01_bot_955_FN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Se_5.5_nocip_RN'    :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_nocip_R_over_Cfx_0.01_bot_955_RN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Se_12.5_nocip_FN'   :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_nocip_F_over_Cfx_0.01_bot_955_FN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Se_12.5_nocip_RN'   :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_nocip_R_over_Cfx_0.01_bot_955_RN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Lr_5.5_cip_FnN'     :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_cip_F_over_Cfx_0.01_bot_955_FnN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Lr_5.5_cip_RnN'     :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_cip_R_over_Cfx_0.01_bot_955_RnN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Lr_12.5_cip_FnN'    :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_cip_F_over_Cfx_0.01_bot_955_FnN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Lr_12.5_cip_RnN'    :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_cip_R_over_Cfx_0.01_bot_955_RnN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Lr_5.5_nocip_FnN'   :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_nocip_F_over_Cfx_0.01_bot_955_FnN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Lr_5.5_nocip_RnN'   :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_nocip_R_over_Cfx_0.01_bot_955_RnN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Lr_12.5_nocip_FnN'  :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_nocip_F_over_Cfx_0.01_bot_955_FnN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Lr_12.5_nocip_RnN'  :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_nocip_R_over_Cfx_0.01_bot_955_RnN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Se_5.5_cip_FnN'     :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_cip_F_over_Cfx_0.01_bot_955_FnN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Se_5.5_cip_RnN'     :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_cip_R_over_Cfx_0.01_bot_955_RnN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Se_12.5_cip_FnN'    :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_cip_F_over_Cfx_0.01_bot_955_FnN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Se_12.5_cip_RnN'    :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_cip_R_over_Cfx_0.01_bot_955_RnN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Se_5.5_nocip_FnN'   :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_nocip_F_over_Cfx_0.01_bot_955_FnN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Se_5.5_nocip_RnN'   :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_nocip_R_over_Cfx_0.01_bot_955_RnN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Se_12.5_nocip_FnN'  :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_nocip_F_over_Cfx_0.01_bot_955_FnN_width_50000bp.wig',
-                  'Cfx_0.01_bot_955_Se_12.5_nocip_RnN'  :    PWD + 'Chi_anchor_analysis_GCS_vicinity_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_nocip_R_over_Cfx_0.01_bot_955_RnN_width_50000bp.wig',
-                                                                                        
+                                                                                                                                                                                
                   'Cfx_0.01_Lr_5.5_cip_FCUS'            :    PWD + 'Chi_anchor_analysis_Closest_Chi_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_cip_F_over_Cfx_0.01_FCUS_width_50000bp.wig',
                   'Cfx_0.01_Lr_5.5_cip_RCUS'            :    PWD + 'Chi_anchor_analysis_Closest_Chi_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_cip_R_over_Cfx_0.01_RCUS_width_50000bp.wig',
                   'Cfx_0.01_Lr_12.5_cip_FCUS'           :    PWD + 'Chi_anchor_analysis_Closest_Chi_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_cip_F_over_Cfx_0.01_FCUS_width_50000bp.wig',
@@ -202,6 +136,24 @@ Wig_data_in_dict={'Cfx_0.01_Lr_5.5_cip_F'               :    PWD + 'Chi_anchor_a
                   'Cfx_0.01_Se_5.5_nocip_RCDS'          :    PWD + 'Chi_anchor_analysis_Closest_Chi_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_nocip_R_over_Cfx_0.01_RCDS_width_50000bp.wig',
                   'Cfx_0.01_Se_12.5_nocip_FCDS'         :    PWD + 'Chi_anchor_analysis_Closest_Chi_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_nocip_F_over_Cfx_0.01_FCDS_width_50000bp.wig',
                   'Cfx_0.01_Se_12.5_nocip_RCDS'         :    PWD + 'Chi_anchor_analysis_Closest_Chi_polyshed\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_nocip_R_over_Cfx_0.01_RCDS_width_50000bp.wig',
+
+                  'Cfx_0.01_Lr_5.5_cip_US'            :    PWD + 'Chi_anchor_analysis_US_Chi_vs_others\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_cip_over_Cfx_0.01_US_width_50000bp.wig',
+                  'Cfx_0.01_Lr_5.5_cip_OTH'           :    PWD + 'Chi_anchor_analysis_US_Chi_vs_others\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_cip_over_Cfx_0.01_OTH_width_50000bp.wig',
+                  'Cfx_0.01_Lr_12.5_cip_US'           :    PWD + 'Chi_anchor_analysis_US_Chi_vs_others\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_cip_over_Cfx_0.01_US_width_50000bp.wig',
+                  'Cfx_0.01_Lr_12.5_cip_OTH'          :    PWD + 'Chi_anchor_analysis_US_Chi_vs_others\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_cip_over_Cfx_0.01_OTH_width_50000bp.wig',
+                  'Cfx_0.01_Lr_5.5_nocip_US'          :    PWD + 'Chi_anchor_analysis_US_Chi_vs_others\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_nocip_over_Cfx_0.01_US_width_50000bp.wig',
+                  'Cfx_0.01_Lr_5.5_nocip_OTH'         :    PWD + 'Chi_anchor_analysis_US_Chi_vs_others\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_5.5_nocip_over_Cfx_0.01_OTH_width_50000bp.wig',
+                  'Cfx_0.01_Lr_12.5_nocip_US'         :    PWD + 'Chi_anchor_analysis_US_Chi_vs_others\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_nocip_over_Cfx_0.01_US_width_50000bp.wig',
+                  'Cfx_0.01_Lr_12.5_nocip_OTH'        :    PWD + 'Chi_anchor_analysis_US_Chi_vs_others\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Lr_12.5_nocip_over_Cfx_0.01_OTH_width_50000bp.wig',
+                  'Cfx_0.01_Se_5.5_cip_US'            :    PWD + 'Chi_anchor_analysis_US_Chi_vs_others\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_cip_over_Cfx_0.01_US_width_50000bp.wig',
+                  'Cfx_0.01_Se_5.5_cip_OTH'           :    PWD + 'Chi_anchor_analysis_US_Chi_vs_others\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_cip_over_Cfx_0.01_OTH_width_50000bp.wig',
+                  'Cfx_0.01_Se_12.5_cip_US'           :    PWD + 'Chi_anchor_analysis_US_Chi_vs_others\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_cip_over_Cfx_0.01_US_width_50000bp.wig',
+                  'Cfx_0.01_Se_12.5_cip_OTH'          :    PWD + 'Chi_anchor_analysis_US_Chi_vs_others\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_cip_over_Cfx_0.01_OTH_width_50000bp.wig',
+                  'Cfx_0.01_Se_5.5_nocip_US'          :    PWD + 'Chi_anchor_analysis_US_Chi_vs_others\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_nocip_over_Cfx_0.01_US_width_50000bp.wig',
+                  'Cfx_0.01_Se_5.5_nocip_OTH'         :    PWD + 'Chi_anchor_analysis_US_Chi_vs_others\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_5.5_nocip_over_Cfx_0.01_OTH_width_50000bp.wig',
+                  'Cfx_0.01_Se_12.5_nocip_US'         :    PWD + 'Chi_anchor_analysis_US_Chi_vs_others\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_nocip_over_Cfx_0.01_US_width_50000bp.wig',
+                  'Cfx_0.01_Se_12.5_nocip_OTH'        :    PWD + 'Chi_anchor_analysis_US_Chi_vs_others\\50000_width_50_smoothing_1000_vicinity_del_cor\Signal_of_GCSs_wig\Signal_Se_12.5_nocip_over_Cfx_0.01_OTH_width_50000bp.wig',
+                  
 
                   }
 
@@ -329,73 +281,7 @@ def plot_FE_over_anchors(wig_in_dict, sm_window, output_path, set_name, set_type
               'Cfx_0.01_Se_5.5_nocip_RnN'  :    250,
               'Cfx_0.01_Se_12.5_nocip_FnN' :    197,
               'Cfx_0.01_Se_12.5_nocip_RnN' :    250,
-              
-              'Cfx_0.01_top_955_Lr_5.5_cip_FN'      :    33,
-              'Cfx_0.01_top_955_Lr_5.5_cip_RN'      :    36,
-              'Cfx_0.01_top_955_Lr_12.5_cip_FN'     :    33,
-              'Cfx_0.01_top_955_Lr_12.5_cip_RN'     :    36,
-              'Cfx_0.01_top_955_Lr_5.5_nocip_FN'    :    33,
-              'Cfx_0.01_top_955_Lr_5.5_nocip_RN'    :    36,
-              'Cfx_0.01_top_955_Lr_12.5_nocip_FN'   :    33,
-              'Cfx_0.01_top_955_Lr_12.5_nocip_RN'   :    36,
-              'Cfx_0.01_top_955_Se_5.5_cip_FN'      :    33,
-              'Cfx_0.01_top_955_Se_5.5_cip_RN'      :    36,
-              'Cfx_0.01_top_955_Se_12.5_cip_FN'     :    33,
-              'Cfx_0.01_top_955_Se_12.5_cip_RN'     :    36,
-              'Cfx_0.01_top_955_Se_5.5_nocip_FN'    :    33,
-              'Cfx_0.01_top_955_Se_5.5_nocip_RN'    :    36,
-              'Cfx_0.01_top_955_Se_12.5_nocip_FN'   :    33,
-              'Cfx_0.01_top_955_Se_12.5_nocip_RN'   :    36,
-              'Cfx_0.01_top_955_Lr_5.5_cip_FnN'     :    362,
-              'Cfx_0.01_top_955_Lr_5.5_cip_RnN'     :    402,
-              'Cfx_0.01_top_955_Lr_12.5_cip_FnN'    :    362,
-              'Cfx_0.01_top_955_Lr_12.5_cip_RnN'    :    402,
-              'Cfx_0.01_top_955_Lr_5.5_nocip_FnN'   :    362,
-              'Cfx_0.01_top_955_Lr_5.5_nocip_RnN'   :    402,
-              'Cfx_0.01_top_955_Lr_12.5_nocip_FnN'  :    362,
-              'Cfx_0.01_top_955_Lr_12.5_nocip_RnN'  :    402,
-              'Cfx_0.01_top_955_Se_5.5_cip_FnN'     :    362,
-              'Cfx_0.01_top_955_Se_5.5_cip_RnN'     :    402,
-              'Cfx_0.01_top_955_Se_12.5_cip_FnN'    :    362,
-              'Cfx_0.01_top_955_Se_12.5_cip_RnN'    :    402,
-              'Cfx_0.01_top_955_Se_5.5_nocip_FnN'   :    362,
-              'Cfx_0.01_top_955_Se_5.5_nocip_RnN'   :    402,
-              'Cfx_0.01_top_955_Se_12.5_nocip_FnN'  :    362,
-              'Cfx_0.01_top_955_Se_12.5_nocip_RnN'  :    402,
-              
-              'Cfx_0.01_bot_955_Lr_5.5_cip_FN'      :    43,
-              'Cfx_0.01_bot_955_Lr_5.5_cip_RN'      :    34,
-              'Cfx_0.01_bot_955_Lr_12.5_cip_FN'     :    43,
-              'Cfx_0.01_bot_955_Lr_12.5_cip_RN'     :    34,
-              'Cfx_0.01_bot_955_Lr_5.5_nocip_FN'    :    43,
-              'Cfx_0.01_bot_955_Lr_5.5_nocip_RN'    :    34,
-              'Cfx_0.01_bot_955_Lr_12.5_nocip_FN'   :    43,
-              'Cfx_0.01_bot_955_Lr_12.5_nocip_RN'   :    34,
-              'Cfx_0.01_bot_955_Se_5.5_cip_FN'      :    43,
-              'Cfx_0.01_bot_955_Se_5.5_cip_RN'      :    34,
-              'Cfx_0.01_bot_955_Se_12.5_cip_FN'     :    43,
-              'Cfx_0.01_bot_955_Se_12.5_cip_RN'     :    34,
-              'Cfx_0.01_bot_955_Se_5.5_nocip_FN'    :    43,
-              'Cfx_0.01_bot_955_Se_5.5_nocip_RN'    :    34,
-              'Cfx_0.01_bot_955_Se_12.5_nocip_FN'   :    43,
-              'Cfx_0.01_bot_955_Se_12.5_nocip_RN'   :    34,
-              'Cfx_0.01_bot_955_Lr_5.5_cip_FnN'     :    352,
-              'Cfx_0.01_bot_955_Lr_5.5_cip_RnN'     :    404,
-              'Cfx_0.01_bot_955_Lr_12.5_cip_FnN'    :    352,
-              'Cfx_0.01_bot_955_Lr_12.5_cip_RnN'    :    404,
-              'Cfx_0.01_bot_955_Lr_5.5_nocip_FnN'   :    352,
-              'Cfx_0.01_bot_955_Lr_5.5_nocip_RnN'   :    404,
-              'Cfx_0.01_bot_955_Lr_12.5_nocip_FnN'  :    352,
-              'Cfx_0.01_bot_955_Lr_12.5_nocip_RnN'  :    404,
-              'Cfx_0.01_bot_955_Se_5.5_cip_FnN'     :    352,
-              'Cfx_0.01_bot_955_Se_5.5_cip_RnN'     :    404,
-              'Cfx_0.01_bot_955_Se_12.5_cip_FnN'    :    352,
-              'Cfx_0.01_bot_955_Se_12.5_cip_RnN'    :    404,
-              'Cfx_0.01_bot_955_Se_5.5_nocip_FnN'   :    352,
-              'Cfx_0.01_bot_955_Se_5.5_nocip_RnN'   :    404,
-              'Cfx_0.01_bot_955_Se_12.5_nocip_FnN'  :    352,
-              'Cfx_0.01_bot_955_Se_12.5_nocip_RnN'  :    404,
-              
+                            
               'Cfx_0.01_Lr_5.5_cip_FCUS'            :    90,
               'Cfx_0.01_Lr_5.5_cip_RCUS'            :    101,
               'Cfx_0.01_Lr_12.5_cip_FCUS'           :    90,
@@ -429,7 +315,24 @@ def plot_FE_over_anchors(wig_in_dict, sm_window, output_path, set_name, set_type
               'Cfx_0.01_Se_5.5_nocip_RCDS'          :    102,
               'Cfx_0.01_Se_12.5_nocip_FCDS'         :    90,
               'Cfx_0.01_Se_12.5_nocip_RCDS'         :    102,
-                                     
+              
+              'Cfx_0.01_Lr_5.5_cip_US'            :    188,
+              'Cfx_0.01_Lr_5.5_cip_OTH'           :    645,
+              'Cfx_0.01_Lr_12.5_cip_US'           :    188,
+              'Cfx_0.01_Lr_12.5_cip_OTH'          :    645,
+              'Cfx_0.01_Lr_5.5_nocip_US'          :    188,
+              'Cfx_0.01_Lr_5.5_nocip_OTH'         :    645,
+              'Cfx_0.01_Lr_12.5_nocip_US'         :    188,
+              'Cfx_0.01_Lr_12.5_nocip_OTH'        :    645,
+              'Cfx_0.01_Se_5.5_cip_US'            :    188,
+              'Cfx_0.01_Se_5.5_cip_OTH'           :    645,
+              'Cfx_0.01_Se_12.5_cip_US'           :    188,
+              'Cfx_0.01_Se_12.5_cip_OTH'          :    645,
+              'Cfx_0.01_Se_5.5_nocip_US'          :    188,
+              'Cfx_0.01_Se_5.5_nocip_OTH'         :    645,
+              'Cfx_0.01_Se_12.5_nocip_US'         :    188,
+              'Cfx_0.01_Se_12.5_nocip_OTH'        :    645,
+                                                 
               }
     
     #FE averaged WIG parsing
@@ -469,16 +372,6 @@ def plot_FE_over_anchors(wig_in_dict, sm_window, output_path, set_name, set_type
     elif set_name=='Se_5.5_FR_vicinity_FE':    
         plot1.plot(positions, (np.array(dict_of_wigs['Cfx_0.01_Se_5.5_cip_FN']) + np.array(dict_of_wigs['Cfx_0.01_Se_5.5_cip_RN'][::-1])) / (np.array(dict_of_wigs['Cfx_0.01_Se_5.5_nocip_FN']) + np.array(dict_of_wigs['Cfx_0.01_Se_5.5_nocip_RN'][::-1])),    linestyle='-',  color='#B6B8BD', linewidth=2.5, alpha=1, label=f'Se 5.5 cip/nocip FR near GCS ({Chi_sets["Cfx_0.01_Se_5.5_cip_FN"]+Chi_sets["Cfx_0.01_Se_5.5_cip_RN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
         plot1.plot(positions, (np.array(dict_of_wigs['Cfx_0.01_Se_5.5_cip_FnN'])+ np.array(dict_of_wigs['Cfx_0.01_Se_5.5_cip_RnN'][::-1]))/ (np.array(dict_of_wigs['Cfx_0.01_Se_5.5_nocip_FnN'])+ np.array(dict_of_wigs['Cfx_0.01_Se_5.5_nocip_RnN'][::-1])),   linestyle='-',  color='#333738', linewidth=2.5, alpha=1, label=f'Se 5.5 cip/nocip FR not near GCS ({Chi_sets["Cfx_0.01_Se_5.5_nocip_FnN"]+Chi_sets["Cfx_0.01_Se_5.5_nocip_RnN"]})', zorder=10) #Def linewidth=2; #R123 -0.07; R12 -0.01; R3 -0.17      
-    elif set_name=='Lr_12.5_FR_vicinity_955_FE':    
-        plot1.plot(positions, (np.array(dict_of_wigs['Cfx_0.01_top_955_Lr_12.5_cip_FN']) + np.array(dict_of_wigs['Cfx_0.01_top_955_Lr_12.5_cip_RN'][::-1])) / (np.array(dict_of_wigs['Cfx_0.01_top_955_Lr_12.5_nocip_FN']) + np.array(dict_of_wigs['Cfx_0.01_top_955_Lr_12.5_nocip_RN'][::-1])),    linestyle='-',  color='#B6B8BD', linewidth=2.5, alpha=1, label=f'Lr 12.5 cip/nocip FR near GCS top 955 GCS ({Chi_sets["Cfx_0.01_top_955_Lr_12.5_cip_FN"]+Chi_sets["Cfx_0.01_top_955_Lr_12.5_cip_RN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
-        plot1.plot(positions, (np.array(dict_of_wigs['Cfx_0.01_bot_955_Lr_12.5_cip_FN']) + np.array(dict_of_wigs['Cfx_0.01_bot_955_Lr_12.5_cip_RN'][::-1])) / (np.array(dict_of_wigs['Cfx_0.01_bot_955_Lr_12.5_nocip_FN']) + np.array(dict_of_wigs['Cfx_0.01_bot_955_Lr_12.5_nocip_RN'][::-1])),    linestyle='--', color='#B6B8BD', linewidth=2.5, alpha=1, label=f'Lr 12.5 cip/nocip FR near GCS bot 955 GCS ({Chi_sets["Cfx_0.01_bot_955_Lr_12.5_cip_FN"]+Chi_sets["Cfx_0.01_bot_955_Lr_12.5_cip_RN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07                 
-        plot1.plot(positions, (np.array(dict_of_wigs['Cfx_0.01_top_955_Lr_12.5_cip_FnN'])+ np.array(dict_of_wigs['Cfx_0.01_top_955_Lr_12.5_cip_RnN'][::-1]))/ (np.array(dict_of_wigs['Cfx_0.01_top_955_Lr_12.5_nocip_FnN'])+ np.array(dict_of_wigs['Cfx_0.01_top_955_Lr_12.5_nocip_RnN'][::-1])),   linestyle='-',  color='#333738', linewidth=2.5, alpha=1, label=f'Lr 12.5 cip/nocip FR not near GCS top 955 GCS ({Chi_sets["Cfx_0.01_top_955_Lr_12.5_cip_FnN"]+Chi_sets["Cfx_0.01_top_955_Lr_12.5_cip_RnN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
-        plot1.plot(positions, (np.array(dict_of_wigs['Cfx_0.01_bot_955_Lr_12.5_cip_FnN'])+ np.array(dict_of_wigs['Cfx_0.01_bot_955_Lr_12.5_cip_RnN'][::-1]))/ (np.array(dict_of_wigs['Cfx_0.01_bot_955_Lr_12.5_nocip_FnN'])+ np.array(dict_of_wigs['Cfx_0.01_bot_955_Lr_12.5_nocip_RnN'][::-1])),   linestyle='--', color='#333738', linewidth=2.5, alpha=1, label=f'Lr 12.5 cip/nocip FR not near GCS bot 955 GCS ({Chi_sets["Cfx_0.01_bot_955_Lr_12.5_cip_FnN"]+Chi_sets["Cfx_0.01_bot_955_Lr_12.5_cip_RnN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07                 
-    elif set_name=='Se_12.5_FR_vicinity_955_FE':    
-        plot1.plot(positions, (np.array(dict_of_wigs['Cfx_0.01_top_955_Se_12.5_cip_FN']) + np.array(dict_of_wigs['Cfx_0.01_top_955_Se_12.5_cip_RN'][::-1])) / (np.array(dict_of_wigs['Cfx_0.01_top_955_Se_12.5_nocip_FN']) + np.array(dict_of_wigs['Cfx_0.01_top_955_Se_12.5_nocip_RN'][::-1])),    linestyle='-',  color='#B6B8BD', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip FR near GCS top 955 GCS ({Chi_sets["Cfx_0.01_top_955_Se_12.5_cip_FN"]+Chi_sets["Cfx_0.01_top_955_Se_12.5_cip_RN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
-        plot1.plot(positions, (np.array(dict_of_wigs['Cfx_0.01_bot_955_Se_12.5_cip_FN']) + np.array(dict_of_wigs['Cfx_0.01_bot_955_Se_12.5_cip_RN'][::-1])) / (np.array(dict_of_wigs['Cfx_0.01_bot_955_Se_12.5_nocip_FN']) + np.array(dict_of_wigs['Cfx_0.01_bot_955_Se_12.5_nocip_RN'][::-1])),    linestyle='--', color='#B6B8BD', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip FR near GCS bot 955 GCS ({Chi_sets["Cfx_0.01_bot_955_Se_12.5_cip_FN"]+Chi_sets["Cfx_0.01_bot_955_Se_12.5_cip_RN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07                 
-        plot1.plot(positions, (np.array(dict_of_wigs['Cfx_0.01_top_955_Se_12.5_cip_FnN'])+ np.array(dict_of_wigs['Cfx_0.01_top_955_Se_12.5_cip_RnN'][::-1]))/ (np.array(dict_of_wigs['Cfx_0.01_top_955_Se_12.5_nocip_FnN'])+ np.array(dict_of_wigs['Cfx_0.01_top_955_Se_12.5_nocip_RnN'][::-1])),   linestyle='-',  color='#333738', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip FR not near GCS top 955 GCS ({Chi_sets["Cfx_0.01_top_955_Se_12.5_cip_FnN"]+Chi_sets["Cfx_0.01_top_955_Se_12.5_cip_RnN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
-        plot1.plot(positions, (np.array(dict_of_wigs['Cfx_0.01_bot_955_Se_12.5_cip_FnN'])+ np.array(dict_of_wigs['Cfx_0.01_bot_955_Se_12.5_cip_RnN'][::-1]))/ (np.array(dict_of_wigs['Cfx_0.01_bot_955_Se_12.5_nocip_FnN'])+ np.array(dict_of_wigs['Cfx_0.01_bot_955_Se_12.5_nocip_RnN'][::-1])),   linestyle='--', color='#333738', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip FR not near GCS bot 955 GCS ({Chi_sets["Cfx_0.01_bot_955_Se_12.5_cip_FnN"]+Chi_sets["Cfx_0.01_bot_955_Se_12.5_cip_RnN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07                 
     elif set_name=='Lr_5.5_FR_Cl_FE':      
         plot1.plot(positions, (np.array(dict_of_wigs['Cfx_0.01_Lr_5.5_cip_FCUS'])+np.array(dict_of_wigs['Cfx_0.01_Lr_5.5_cip_RCUS'][::-1]))/(np.array(dict_of_wigs['Cfx_0.01_Lr_5.5_nocip_FCUS'])+np.array(dict_of_wigs['Cfx_0.01_Lr_5.5_nocip_RCUS'][::-1])),  linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Lr 5.5 cip/nocip FR Chi close to GCS in US ({Chi_sets["Cfx_0.01_Se_5.5_cip_FCUS"]+Chi_sets["Cfx_0.01_Se_5.5_cip_RCUS"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
         plot1.plot(positions, (np.array(dict_of_wigs['Cfx_0.01_Lr_5.5_cip_FCDS'])+np.array(dict_of_wigs['Cfx_0.01_Lr_5.5_cip_RCDS'][::-1]))/(np.array(dict_of_wigs['Cfx_0.01_Lr_5.5_nocip_FCDS'])+np.array(dict_of_wigs['Cfx_0.01_Lr_5.5_nocip_RCDS'][::-1])),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Lr 5.5 cip/nocip FR Chi close to GCS in DS ({Chi_sets["Cfx_0.01_Se_5.5_cip_FCDS"]+Chi_sets["Cfx_0.01_Se_5.5_cip_RCDS"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
@@ -495,7 +388,45 @@ def plot_FE_over_anchors(wig_in_dict, sm_window, output_path, set_name, set_type
         plot1.plot(positions, (np.array(dict_of_wigs['Cfx_0.01_Se_12.5_cip_FCUS'])+np.array(dict_of_wigs['Cfx_0.01_Se_12.5_cip_RCUS'][::-1]))/(np.array(dict_of_wigs['Cfx_0.01_Se_12.5_nocip_FCUS'])+np.array(dict_of_wigs['Cfx_0.01_Se_12.5_nocip_RCUS'][::-1])),  linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip FR Chi close to GCS in US ({Chi_sets["Cfx_0.01_Se_5.5_cip_FCUS"]+Chi_sets["Cfx_0.01_Se_5.5_cip_RCUS"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
         plot1.plot(positions, (np.array(dict_of_wigs['Cfx_0.01_Se_12.5_cip_FCDS'])+np.array(dict_of_wigs['Cfx_0.01_Se_12.5_cip_RCDS'][::-1]))/(np.array(dict_of_wigs['Cfx_0.01_Se_12.5_nocip_FCDS'])+np.array(dict_of_wigs['Cfx_0.01_Se_12.5_nocip_RCDS'][::-1])),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip FR Chi close to GCS in DS ({Chi_sets["Cfx_0.01_Se_5.5_cip_FCDS"]+Chi_sets["Cfx_0.01_Se_5.5_cip_RCDS"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
         plot1.plot(positions, (np.array(dict_of_wigs['Cfx_0.01_Se_12.5_cip_F'])   +np.array(dict_of_wigs['Cfx_0.01_Se_12.5_cip_R'][::-1]))   /(np.array(dict_of_wigs['Cfx_0.01_Se_12.5_nocip_F'])   +np.array(dict_of_wigs['Cfx_0.01_Se_12.5_nocip_R'][::-1])),     linestyle='-',  color='#B6B8BD', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip FR all Chi ({Chi_sets["Cfx_0.01_Se_5.5_cip_F"]+Chi_sets["Cfx_0.01_Se_5.5_cip_R"]})', zorder=1) #R123 -0; R12 +0.03; R3 -0.07
-                       
+    elif set_name=='Lr_5.5_US_vs_OTH':      
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Lr_5.5_cip_US']) /np.array(dict_of_wigs['Cfx_0.01_Lr_5.5_nocip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Lr 5.5 cip/nocip US ({Chi_sets["Cfx_0.01_Lr_5.5_nocip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Lr_5.5_cip_OTH'])/np.array(dict_of_wigs['Cfx_0.01_Lr_5.5_nocip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Lr 5.5 cip/nocip OTH ({Chi_sets["Cfx_0.01_Lr_5.5_nocip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+    elif set_name=='Lr_12.5_US_vs_OTH':      
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Lr_12.5_cip_US']) /np.array(dict_of_wigs['Cfx_0.01_Lr_12.5_nocip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Lr 12.5 cip/nocip US ({Chi_sets["Cfx_0.01_Lr_12.5_nocip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Lr_12.5_cip_OTH'])/np.array(dict_of_wigs['Cfx_0.01_Lr_12.5_nocip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Lr 12.5 cip/nocip OTH ({Chi_sets["Cfx_0.01_Lr_12.5_nocip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+    elif set_name=='Se_5.5_US_vs_OTH':      
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Se_5.5_cip_US']) /np.array(dict_of_wigs['Cfx_0.01_Se_5.5_nocip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Se 5.5 cip/nocip US ({Chi_sets["Cfx_0.01_Se_5.5_nocip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Se_5.5_cip_OTH'])/np.array(dict_of_wigs['Cfx_0.01_Se_5.5_nocip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Se 5.5 cip/nocip OTH ({Chi_sets["Cfx_0.01_Se_5.5_nocip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07       
+    elif set_name=='Se_12.5_US_vs_OTH':      
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Se_12.5_cip_US']) /np.array(dict_of_wigs['Cfx_0.01_Se_12.5_nocip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip US ({Chi_sets["Cfx_0.01_Se_12.5_nocip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Se_12.5_cip_OTH'])/np.array(dict_of_wigs['Cfx_0.01_Se_12.5_nocip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip OTH ({Chi_sets["Cfx_0.01_Se_12.5_nocip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+    
+    elif set_name=='Lr_5.5_US_vs_OTH_nocip':      
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Lr_5.5_nocip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Lr 5.5 nocip DS ({Chi_sets["Cfx_0.01_Lr_5.5_nocip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Lr_5.5_nocip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Lr 5.5 nocip OTH ({Chi_sets["Cfx_0.01_Lr_5.5_nocip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+    elif set_name=='Lr_12.5_US_vs_OTH_nocip':      
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Lr_12.5_nocip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Lr 12.5 nocip DS ({Chi_sets["Cfx_0.01_Lr_12.5_nocip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Lr_12.5_nocip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Lr 12.5 nocip OTH ({Chi_sets["Cfx_0.01_Lr_12.5_nocip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+    elif set_name=='Se_5.5_US_vs_OTH_nocip':      
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Se_5.5_nocip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Se 5.5 nocip DS ({Chi_sets["Cfx_0.01_Se_5.5_nocip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Se_5.5_nocip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Se 5.5 nocip OTH ({Chi_sets["Cfx_0.01_Se_5.5_nocip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07       
+    elif set_name=='Se_12.5_US_vs_OTH_nocip':      
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Se_12.5_nocip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Se 12.5 nocip DS ({Chi_sets["Cfx_0.01_Se_12.5_nocip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Se_12.5_nocip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Se 12.5 nocip OTH ({Chi_sets["Cfx_0.01_Se_12.5_nocip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+    
+    elif set_name=='Lr_5.5_US_vs_OTH_cip':      
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Lr_5.5_cip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Lr 5.5 cip DS ({Chi_sets["Cfx_0.01_Lr_5.5_cip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Lr_5.5_cip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Lr 5.5 cip OTH ({Chi_sets["Cfx_0.01_Lr_5.5_cip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+    elif set_name=='Lr_12.5_US_vs_OTH_cip':      
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Lr_12.5_cip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Lr 12.5 cip DS ({Chi_sets["Cfx_0.01_Lr_12.5_cip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Lr_12.5_cip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Lr 12.5 cip OTH ({Chi_sets["Cfx_0.01_Lr_12.5_cip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+    elif set_name=='Se_5.5_US_vs_OTH_cip':      
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Se_5.5_cip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Se 5.5 cip DS ({Chi_sets["Cfx_0.01_Se_5.5_cip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Se_5.5_cip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Se 5.5 cip OTH ({Chi_sets["Cfx_0.01_Se_5.5_cip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07       
+    elif set_name=='Se_12.5_US_vs_OTH_cip':      
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Se_12.5_cip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Se 12.5 cip DS ({Chi_sets["Cfx_0.01_Se_12.5_cip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions, np.array(dict_of_wigs['Cfx_0.01_Se_12.5_cip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Se 12.5 cip OTH ({Chi_sets["Cfx_0.01_Se_12.5_cip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+           
     #plot1.set_ylim(0.75, 1.6) #(0.75, 1.6) for FE; (-0.6, 0.5) for ded FE
     ticks=np.arange(-win_width,win_width+4+1,length).tolist()   
     plot1.set_xticks(ticks, minor='False')
@@ -503,10 +434,20 @@ def plot_FE_over_anchors(wig_in_dict, sm_window, output_path, set_name, set_type
     plot1.axvline(0, color='black', linestyle='--', alpha=0.7, linewidth=1)
     plot1.legend(fontsize=15, frameon=False)    
     plot1.set_xlabel('Distance, bp', size=20)
-    plot1.set_ylabel(f'RPKM cip/RPKM nocip', size=20)  
     plot1.set_xlim([-30000, 30008])
-    plt.savefig(f'{output_path}\\{set_name}_over_{set_type}_cip_div_nocip_FR_{win_width}bp_lim_30000.png', dpi=400, figsize=(10, 6), transparent=True)  #Def size - 10, 6; Closer look - 3, 6
-    plt.savefig(f'{output_path}\\{set_name}_over_{set_type}_cip_div_nocip_FR_{win_width}bp_lim_30000.svg', dpi=400, figsize=(10, 6), transparent=True)  #Def size - 10, 6; Closer look - 3, 6    
+    if set_name in ['Se_12.5_US_vs_OTH_cip', 'Se_5.5_US_vs_OTH_cip', 'Lr_12.5_US_vs_OTH_cip', 'Lr_5.5_US_vs_OTH_cip']:
+        plot1.set_ylabel(f'RPKM cip', size=20)
+        plt.savefig(f'{output_path}\\{set_name}_over_{set_type}_cip_FR_{win_width}bp_lim_30000.png', dpi=400, figsize=(10, 6), transparent=True)  #Def size - 10, 6; Closer look - 3, 6
+        plt.savefig(f'{output_path}\\{set_name}_over_{set_type}_cip_FR_{win_width}bp_lim_30000.svg', dpi=400, figsize=(10, 6), transparent=True)  #Def size - 10, 6; Closer look - 3, 6                
+    elif set_name in ['Se_12.5_US_vs_OTH_nocip', 'Se_5.5_US_vs_OTH_nocip', 'Lr_12.5_US_vs_OTH_nocip', 'Lr_5.5_US_vs_OTH_nocip']:
+        plot1.set_ylabel(f'RPKM nocip', size=20)  
+        plt.savefig(f'{output_path}\\{set_name}_over_{set_type}_nocip_FR_{win_width}bp_lim_30000.png', dpi=400, figsize=(10, 6), transparent=True)  #Def size - 10, 6; Closer look - 3, 6
+        plt.savefig(f'{output_path}\\{set_name}_over_{set_type}_nocip_FR_{win_width}bp_lim_30000.svg', dpi=400, figsize=(10, 6), transparent=True)  #Def size - 10, 6; Closer look - 3, 6    
+    else:
+        plot1.set_ylabel(f'RPKM cip/RPKM nocip', size=20)   
+        plt.savefig(f'{output_path}\\{set_name}_over_{set_type}_cip_div_nocip_FR_{win_width}bp_lim_30000.png', dpi=400, figsize=(10, 6), transparent=True)  #Def size - 10, 6; Closer look - 3, 6
+        plt.savefig(f'{output_path}\\{set_name}_over_{set_type}_cip_div_nocip_FR_{win_width}bp_lim_30000.svg', dpi=400, figsize=(10, 6), transparent=True)  #Def size - 10, 6; Closer look - 3, 6            
+    
     plt.show()
     plt.close()    
     
@@ -543,16 +484,6 @@ def plot_FE_over_anchors(wig_in_dict, sm_window, output_path, set_name, set_type
     elif set_name=='Se_5.5_FR_vicinity_FE':    
         plot1.plot(positions_sm, (np.array(dict_of_wigs_sm['Cfx_0.01_Se_5.5_cip_FN']) + np.array(dict_of_wigs_sm['Cfx_0.01_Se_5.5_cip_RN'][::-1])) / (np.array(dict_of_wigs_sm['Cfx_0.01_Se_5.5_nocip_FN']) + np.array(dict_of_wigs_sm['Cfx_0.01_Se_5.5_nocip_RN'][::-1])),    linestyle='-',  color='#B6B8BD', linewidth=2.5, alpha=1, label=f'Se 5.5 cip/nocip FR near GCS ({Chi_sets["Cfx_0.01_Se_5.5_cip_FN"]+Chi_sets["Cfx_0.01_Se_5.5_cip_RN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
         plot1.plot(positions_sm, (np.array(dict_of_wigs_sm['Cfx_0.01_Se_5.5_cip_FnN'])+ np.array(dict_of_wigs_sm['Cfx_0.01_Se_5.5_cip_RnN'][::-1]))/ (np.array(dict_of_wigs_sm['Cfx_0.01_Se_5.5_nocip_FnN'])+ np.array(dict_of_wigs_sm['Cfx_0.01_Se_5.5_nocip_RnN'][::-1])),   linestyle='-',  color='#333738', linewidth=2.5, alpha=1, label=f'Se 5.5 cip/nocip FR not near GCS ({Chi_sets["Cfx_0.01_Se_5.5_nocip_FnN"]+Chi_sets["Cfx_0.01_Se_5.5_nocip_RnN"]})', zorder=10) #Def linewidth=2; #R123 -0.07; R12 -0.01; R3 -0.17      
-    elif set_name=='Lr_12.5_FR_vicinity_955_FE':    
-        plot1.plot(positions_sm, (np.array(dict_of_wigs_sm['Cfx_0.01_top_955_Lr_12.5_cip_FN']) + np.array(dict_of_wigs_sm['Cfx_0.01_top_955_Lr_12.5_cip_RN'][::-1])) / (np.array(dict_of_wigs_sm['Cfx_0.01_top_955_Lr_12.5_nocip_FN']) + np.array(dict_of_wigs_sm['Cfx_0.01_top_955_Lr_12.5_nocip_RN'][::-1])),    linestyle='-',  color='#B6B8BD', linewidth=2.5, alpha=1, label=f'Lr 12.5 cip/nocip FR near GCS top 955 GCS ({Chi_sets["Cfx_0.01_top_955_Lr_12.5_cip_FN"]+Chi_sets["Cfx_0.01_top_955_Lr_12.5_cip_RN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
-        plot1.plot(positions_sm, (np.array(dict_of_wigs_sm['Cfx_0.01_bot_955_Lr_12.5_cip_FN']) + np.array(dict_of_wigs_sm['Cfx_0.01_bot_955_Lr_12.5_cip_RN'][::-1])) / (np.array(dict_of_wigs_sm['Cfx_0.01_bot_955_Lr_12.5_nocip_FN']) + np.array(dict_of_wigs_sm['Cfx_0.01_bot_955_Lr_12.5_nocip_RN'][::-1])),    linestyle='--', color='#B6B8BD', linewidth=2.5, alpha=1, label=f'Lr 12.5 cip/nocip FR near GCS bot 955 GCS ({Chi_sets["Cfx_0.01_bot_955_Lr_12.5_cip_FN"]+Chi_sets["Cfx_0.01_bot_955_Lr_12.5_cip_RN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07                 
-        plot1.plot(positions_sm, (np.array(dict_of_wigs_sm['Cfx_0.01_top_955_Lr_12.5_cip_FnN'])+ np.array(dict_of_wigs_sm['Cfx_0.01_top_955_Lr_12.5_cip_RnN'][::-1]))/ (np.array(dict_of_wigs_sm['Cfx_0.01_top_955_Lr_12.5_nocip_FnN'])+ np.array(dict_of_wigs_sm['Cfx_0.01_top_955_Lr_12.5_nocip_RnN'][::-1])),   linestyle='-',  color='#333738', linewidth=2.5, alpha=1, label=f'Lr 12.5 cip/nocip FR not near GCS top 955 GCS ({Chi_sets["Cfx_0.01_top_955_Lr_12.5_cip_FnN"]+Chi_sets["Cfx_0.01_top_955_Lr_12.5_cip_RnN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
-        plot1.plot(positions_sm, (np.array(dict_of_wigs_sm['Cfx_0.01_bot_955_Lr_12.5_cip_FnN'])+ np.array(dict_of_wigs_sm['Cfx_0.01_bot_955_Lr_12.5_cip_RnN'][::-1]))/ (np.array(dict_of_wigs_sm['Cfx_0.01_bot_955_Lr_12.5_nocip_FnN'])+ np.array(dict_of_wigs_sm['Cfx_0.01_bot_955_Lr_12.5_nocip_RnN'][::-1])),   linestyle='--', color='#333738', linewidth=2.5, alpha=1, label=f'Lr 12.5 cip/nocip FR not near GCS bot 955 GCS ({Chi_sets["Cfx_0.01_bot_955_Lr_12.5_cip_FnN"]+Chi_sets["Cfx_0.01_bot_955_Lr_12.5_cip_RnN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07                 
-    elif set_name=='Se_12.5_FR_vicinity_955_FE':    
-        plot1.plot(positions_sm, (np.array(dict_of_wigs_sm['Cfx_0.01_top_955_Se_12.5_cip_FN']) + np.array(dict_of_wigs_sm['Cfx_0.01_top_955_Se_12.5_cip_RN'][::-1])) / (np.array(dict_of_wigs_sm['Cfx_0.01_top_955_Se_12.5_nocip_FN']) + np.array(dict_of_wigs_sm['Cfx_0.01_top_955_Se_12.5_nocip_RN'][::-1])),    linestyle='-',  color='#B6B8BD', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip FR near GCS top 955 GCS ({Chi_sets["Cfx_0.01_top_955_Se_12.5_cip_FN"]+Chi_sets["Cfx_0.01_top_955_Se_12.5_cip_RN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
-        plot1.plot(positions_sm, (np.array(dict_of_wigs_sm['Cfx_0.01_bot_955_Se_12.5_cip_FN']) + np.array(dict_of_wigs_sm['Cfx_0.01_bot_955_Se_12.5_cip_RN'][::-1])) / (np.array(dict_of_wigs_sm['Cfx_0.01_bot_955_Se_12.5_nocip_FN']) + np.array(dict_of_wigs_sm['Cfx_0.01_bot_955_Se_12.5_nocip_RN'][::-1])),    linestyle='--', color='#B6B8BD', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip FR near GCS bot 955 GCS ({Chi_sets["Cfx_0.01_bot_955_Se_12.5_cip_FN"]+Chi_sets["Cfx_0.01_bot_955_Se_12.5_cip_RN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07                 
-        plot1.plot(positions_sm, (np.array(dict_of_wigs_sm['Cfx_0.01_top_955_Se_12.5_cip_FnN'])+ np.array(dict_of_wigs_sm['Cfx_0.01_top_955_Se_12.5_cip_RnN'][::-1]))/ (np.array(dict_of_wigs_sm['Cfx_0.01_top_955_Se_12.5_nocip_FnN'])+ np.array(dict_of_wigs_sm['Cfx_0.01_top_955_Se_12.5_nocip_RnN'][::-1])),   linestyle='-',  color='#333738', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip FR not near GCS top 955 GCS ({Chi_sets["Cfx_0.01_top_955_Se_12.5_cip_FnN"]+Chi_sets["Cfx_0.01_top_955_Se_12.5_cip_RnN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
-        plot1.plot(positions_sm, (np.array(dict_of_wigs_sm['Cfx_0.01_bot_955_Se_12.5_cip_FnN'])+ np.array(dict_of_wigs_sm['Cfx_0.01_bot_955_Se_12.5_cip_RnN'][::-1]))/ (np.array(dict_of_wigs_sm['Cfx_0.01_bot_955_Se_12.5_nocip_FnN'])+ np.array(dict_of_wigs_sm['Cfx_0.01_bot_955_Se_12.5_nocip_RnN'][::-1])),   linestyle='--', color='#333738', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip FR not near GCS bot 955 GCS ({Chi_sets["Cfx_0.01_bot_955_Se_12.5_cip_FnN"]+Chi_sets["Cfx_0.01_bot_955_Se_12.5_cip_RnN"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07                 
     elif set_name=='Lr_5.5_FR_Cl_FE':   
         plot1.plot(positions_sm, (np.array(dict_of_wigs_sm['Cfx_0.01_Lr_5.5_cip_FCUS'])+np.array(dict_of_wigs_sm['Cfx_0.01_Lr_5.5_cip_RCUS'][::-1]))/(np.array(dict_of_wigs_sm['Cfx_0.01_Lr_5.5_nocip_FCUS'])+np.array(dict_of_wigs_sm['Cfx_0.01_Lr_5.5_nocip_RCUS'][::-1])),  linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Lr 5.5 cip/nocip FR Chi close to GCS in US ({Chi_sets["Cfx_0.01_Se_5.5_cip_FCUS"]+Chi_sets["Cfx_0.01_Se_5.5_cip_RCUS"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
         plot1.plot(positions_sm, (np.array(dict_of_wigs_sm['Cfx_0.01_Lr_5.5_cip_FCDS'])+np.array(dict_of_wigs_sm['Cfx_0.01_Lr_5.5_cip_RCDS'][::-1]))/(np.array(dict_of_wigs_sm['Cfx_0.01_Lr_5.5_nocip_FCDS'])+np.array(dict_of_wigs_sm['Cfx_0.01_Lr_5.5_nocip_RCDS'][::-1])),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Lr 5.5 cip/nocip FR Chi close to GCS in DS ({Chi_sets["Cfx_0.01_Se_5.5_cip_FCDS"]+Chi_sets["Cfx_0.01_Se_5.5_cip_RCDS"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
@@ -569,7 +500,45 @@ def plot_FE_over_anchors(wig_in_dict, sm_window, output_path, set_name, set_type
         plot1.plot(positions_sm, (np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_cip_FCUS'])+np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_cip_RCUS'][::-1]))/(np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_nocip_FCUS'])+np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_nocip_RCUS'][::-1])),  linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip FR Chi close to GCS in US ({Chi_sets["Cfx_0.01_Se_5.5_cip_FCUS"]+Chi_sets["Cfx_0.01_Se_5.5_cip_RCUS"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
         plot1.plot(positions_sm, (np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_cip_FCDS'])+np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_cip_RCDS'][::-1]))/(np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_nocip_FCDS'])+np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_nocip_RCDS'][::-1])),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip FR Chi close to GCS in DS ({Chi_sets["Cfx_0.01_Se_5.5_cip_FCDS"]+Chi_sets["Cfx_0.01_Se_5.5_cip_RCDS"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
         plot1.plot(positions_sm, (np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_cip_F'])   +np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_cip_R'][::-1]))   /(np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_nocip_F'])   +np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_nocip_R'][::-1])),     linestyle='-',  color='#B6B8BD', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip FR all Chi ({Chi_sets["Cfx_0.01_Se_5.5_cip_F"]+Chi_sets["Cfx_0.01_Se_5.5_cip_R"]})', zorder=1) #R123 -0; R12 +0.03; R3 -0.07
-           
+    elif set_name=='Lr_5.5_US_vs_OTH':      
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Lr_5.5_cip_US']) /np.array(dict_of_wigs_sm['Cfx_0.01_Lr_5.5_nocip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Lr 5.5 cip/nocip US ({Chi_sets["Cfx_0.01_Lr_5.5_nocip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Lr_5.5_cip_OTH'])/np.array(dict_of_wigs_sm['Cfx_0.01_Lr_5.5_nocip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Lr 5.5 cip/nocip OTH ({Chi_sets["Cfx_0.01_Lr_5.5_nocip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+    elif set_name=='Lr_12.5_US_vs_OTH':      
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Lr_12.5_cip_US']) /np.array(dict_of_wigs_sm['Cfx_0.01_Lr_12.5_nocip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Lr 12.5 cip/nocip US ({Chi_sets["Cfx_0.01_Lr_12.5_nocip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Lr_12.5_cip_OTH'])/np.array(dict_of_wigs_sm['Cfx_0.01_Lr_12.5_nocip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Lr 12.5 cip/nocip OTH ({Chi_sets["Cfx_0.01_Lr_12.5_nocip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+    elif set_name=='Se_5.5_US_vs_OTH':      
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Se_5.5_cip_US']) /np.array(dict_of_wigs_sm['Cfx_0.01_Se_5.5_nocip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Se 5.5 cip/nocip US ({Chi_sets["Cfx_0.01_Se_5.5_nocip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Se_5.5_cip_OTH'])/np.array(dict_of_wigs_sm['Cfx_0.01_Se_5.5_nocip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Se 5.5 cip/nocip OTH ({Chi_sets["Cfx_0.01_Se_5.5_nocip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07       
+    elif set_name=='Se_12.5_US_vs_OTH':      
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_cip_US']) /np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_nocip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip US ({Chi_sets["Cfx_0.01_Se_12.5_nocip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_cip_OTH'])/np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_nocip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Se 12.5 cip/nocip OTH ({Chi_sets["Cfx_0.01_Se_12.5_nocip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+    
+    elif set_name=='Lr_5.5_US_vs_OTH_nocip':      
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Lr_5.5_nocip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Lr 5.5 nocip DS ({Chi_sets["Cfx_0.01_Lr_5.5_nocip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Lr_5.5_nocip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Lr 5.5 nocip OTH ({Chi_sets["Cfx_0.01_Lr_5.5_nocip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+    elif set_name=='Lr_12.5_US_vs_OTH_nocip':      
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Lr_12.5_nocip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Lr 12.5 nocip DS ({Chi_sets["Cfx_0.01_Lr_12.5_nocip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Lr_12.5_nocip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Lr 12.5 nocip OTH ({Chi_sets["Cfx_0.01_Lr_12.5_nocip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+    elif set_name=='Se_5.5_US_vs_OTH_nocip':      
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Se_5.5_nocip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Se 5.5 nocip DS ({Chi_sets["Cfx_0.01_Se_5.5_nocip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Se_5.5_nocip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Se 5.5 nocip OTH ({Chi_sets["Cfx_0.01_Se_5.5_nocip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07       
+    elif set_name=='Se_12.5_US_vs_OTH_nocip':      
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_nocip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Se 12.5 nocip DS ({Chi_sets["Cfx_0.01_Se_12.5_nocip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_nocip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Se 12.5 nocip OTH ({Chi_sets["Cfx_0.01_Se_12.5_nocip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+    
+    elif set_name=='Lr_5.5_US_vs_OTH_cip':      
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Lr_5.5_cip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Lr 5.5 cip DS ({Chi_sets["Cfx_0.01_Lr_5.5_cip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Lr_5.5_cip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Lr 5.5 cip OTH ({Chi_sets["Cfx_0.01_Lr_5.5_cip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+    elif set_name=='Lr_12.5_US_vs_OTH_cip':      
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Lr_12.5_cip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Lr 12.5 cip DS ({Chi_sets["Cfx_0.01_Lr_12.5_cip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Lr_12.5_cip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Lr 12.5 cip OTH ({Chi_sets["Cfx_0.01_Lr_12.5_cip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+    elif set_name=='Se_5.5_US_vs_OTH_cip':      
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Se_5.5_cip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Se 5.5 cip US ({Chi_sets["Cfx_0.01_Se_5.5_cip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Se_5.5_cip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Se 5.5 cip OTH ({Chi_sets["Cfx_0.01_Se_5.5_cip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07       
+    elif set_name=='Se_12.5_US_vs_OTH_cip':      
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_cip_US']),   linestyle='-',  color='#757d8b', linewidth=2.5, alpha=1, label=f'Se 12.5 cip DS ({Chi_sets["Cfx_0.01_Se_12.5_cip_US"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07
+        plot1.plot(positions_sm, np.array(dict_of_wigs_sm['Cfx_0.01_Se_12.5_cip_OTH']),  linestyle='-',  color='#e4d1b4', linewidth=2.5, alpha=1, label=f'Se 12.5 cip OTH ({Chi_sets["Cfx_0.01_Se_12.5_cip_OTH"]})', zorder=6) #Def linewidth=1.5; #R123 -0; R12 +0.03; R3 -0.07         
+    
     #plot1.set_ylim(0.75, 1.6) #(0.75, 1.6) for FE; (-0.6, 0.5) for ded FE
     ticks=np.arange(-win_width,win_width+8+1,length).tolist()   
     plot1.set_xticks(ticks, minor='False')
@@ -578,10 +547,20 @@ def plot_FE_over_anchors(wig_in_dict, sm_window, output_path, set_name, set_type
     plot1.axvline(0, color='black', linestyle='--', alpha=0.7, linewidth=1)
     plot1.legend(fontsize=15, frameon=False)    
     plot1.set_xlabel('Distance, bp', size=20)
-    plot1.set_ylabel(f'RPKM cip/RPKM nocip', size=20)
     plot1.set_xlim([-30000, 30008])
-    plt.savefig(f'{output_path}\\{set_name}_over_{set_type}_cip_div_nocip_FR_smoothed_{win_width}bp_smoothed_{2*sm_window}bp_lim_30000.png', dpi=400, figsize=(10, 6), transparent=True)  #Def size - 10, 6; Closer look - 3, 6
-    plt.savefig(f'{output_path}\\{set_name}_over_{set_type}_cip_div_nocip_FR_smoothed_{win_width}bp_smoothed_{2*sm_window}bp_lim_30000.svg', dpi=400, figsize=(10, 6), transparent=True)  #Def size - 10, 6; Closer look - 3, 6    
+    if set_name in ['Se_12.5_US_vs_OTH_cip', 'Se_5.5_US_vs_OTH_cip', 'Lr_12.5_US_vs_OTH_cip', 'Lr_5.5_US_vs_OTH_cip']:
+        plot1.set_ylabel(f'RPKM cip', size=20)
+        plt.savefig(f'{output_path}\\{set_name}_over_{set_type}_cip_FR_smoothed_{win_width}bp_smoothed_{2*sm_window}bp_lim_30000.png', dpi=400, figsize=(10, 6), transparent=True)  #Def size - 10, 6; Closer look - 3, 6
+        plt.savefig(f'{output_path}\\{set_name}_over_{set_type}_cip_FR_smoothed_{win_width}bp_smoothed_{2*sm_window}bp_lim_30000.svg', dpi=400, figsize=(10, 6), transparent=True)  #Def size - 10, 6; Closer look - 3, 6                   
+    elif set_name in ['Se_12.5_US_vs_OTH_nocip', 'Se_5.5_US_vs_OTH_nocip', 'Lr_12.5_US_vs_OTH_nocip', 'Lr_5.5_US_vs_OTH_nocip']:
+        plot1.set_ylabel(f'RPKM nocip', size=20)  
+        plt.savefig(f'{output_path}\\{set_name}_over_{set_type}_nocip_FR_smoothed_{win_width}bp_smoothed_{2*sm_window}bp_lim_30000.png', dpi=400, figsize=(10, 6), transparent=True)  #Def size - 10, 6; Closer look - 3, 6
+        plt.savefig(f'{output_path}\\{set_name}_over_{set_type}_nocip_FR_smoothed_{win_width}bp_smoothed_{2*sm_window}bp_lim_30000.svg', dpi=400, figsize=(10, 6), transparent=True)  #Def size - 10, 6; Closer look - 3, 6                    
+    else:
+        plot1.set_ylabel(f'RPKM cip/RPKM nocip', size=20)
+        plt.savefig(f'{output_path}\\{set_name}_over_{set_type}_cip_div_nocip_FR_smoothed_{win_width}bp_smoothed_{2*sm_window}bp_lim_30000.png', dpi=400, figsize=(10, 6), transparent=True)  #Def size - 10, 6; Closer look - 3, 6
+        plt.savefig(f'{output_path}\\{set_name}_over_{set_type}_cip_div_nocip_FR_smoothed_{win_width}bp_smoothed_{2*sm_window}bp_lim_30000.svg', dpi=400, figsize=(10, 6), transparent=True)  #Def size - 10, 6; Closer look - 3, 6            
+    
     plt.show()
     plt.close()  
    
@@ -620,6 +599,35 @@ plot_FE_over_anchors(Wig_data_in_dict, Sm_window, Out_path, Signal_name, Set_typ
 Signal_name='Se_5.5_FR_Cl_FE'
 plot_FE_over_anchors(Wig_data_in_dict, Sm_window, Out_path, Signal_name, Set_type)
 Signal_name='Se_12.5_FR_Cl_FE'
+plot_FE_over_anchors(Wig_data_in_dict, Sm_window, Out_path, Signal_name, Set_type)
+
+Out_path=f'{PWD}\Chi_anchor_analysis_US_Chi_vs_others\\50000_width_50_smoothing_1000_vicinity_del_cor\Plot_combinations\\'
+Dir_check_create(Out_path)
+Signal_name='Lr_5.5_US_vs_OTH'
+plot_FE_over_anchors(Wig_data_in_dict, Sm_window, Out_path, Signal_name, Set_type)
+Signal_name='Lr_12.5_US_vs_OTH'
+plot_FE_over_anchors(Wig_data_in_dict, Sm_window, Out_path, Signal_name, Set_type)
+Signal_name='Se_5.5_US_vs_OTH'
+plot_FE_over_anchors(Wig_data_in_dict, Sm_window, Out_path, Signal_name, Set_type)
+Signal_name='Se_12.5_US_vs_OTH'
+plot_FE_over_anchors(Wig_data_in_dict, Sm_window, Out_path, Signal_name, Set_type)
+
+Signal_name='Lr_5.5_US_vs_OTH_cip'
+plot_FE_over_anchors(Wig_data_in_dict, Sm_window, Out_path, Signal_name, Set_type)
+Signal_name='Lr_12.5_US_vs_OTH_cip'
+plot_FE_over_anchors(Wig_data_in_dict, Sm_window, Out_path, Signal_name, Set_type)
+Signal_name='Se_5.5_US_vs_OTH_cip'
+plot_FE_over_anchors(Wig_data_in_dict, Sm_window, Out_path, Signal_name, Set_type)
+Signal_name='Se_12.5_US_vs_OTH_cip'
+plot_FE_over_anchors(Wig_data_in_dict, Sm_window, Out_path, Signal_name, Set_type)
+
+Signal_name='Lr_5.5_US_vs_OTH_nocip'
+plot_FE_over_anchors(Wig_data_in_dict, Sm_window, Out_path, Signal_name, Set_type)
+Signal_name='Lr_12.5_US_vs_OTH_nocip'
+plot_FE_over_anchors(Wig_data_in_dict, Sm_window, Out_path, Signal_name, Set_type)
+Signal_name='Se_5.5_US_vs_OTH_nocip'
+plot_FE_over_anchors(Wig_data_in_dict, Sm_window, Out_path, Signal_name, Set_type)
+Signal_name='Se_12.5_US_vs_OTH_nocip'
 plot_FE_over_anchors(Wig_data_in_dict, Sm_window, Out_path, Signal_name, Set_type)
 
 

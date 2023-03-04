@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # This script takes two TXT files with read names and filters out the reads present in both files. 
-# Then it takes FASTQ file and returnes FASTQ only with reads present in 
+# Then it takes FASTQ file and returnes FASTQ only with reads present in only one of the two TXT files.
 # Input - two TXT files with multimappers from genome and plasmid, one FASTQ file with multimappers.
 # Output - FASTQ file with reads that are present only in one of the two TXT files.
 

@@ -2,7 +2,8 @@
 
 Exploring short DNA fragmants co-purified with Ago proteins from *E. coli* cells.
 
-This directory contains a set of bash and python scripts which were used for Ago-Seq data analysis and visualization.
+This repository contains a set of bash and python scripts which were used for Ago-Seq data analysis and visualization. 
+
 
 ######################
 
@@ -101,7 +102,8 @@ metaplot of average signal over anchors
 
 ## Chi_as_anchors.py
 
-Takes wig tracks of different genome features (Ago-Seq data for F and R strands, etc.). Computes metasignal relative to asymmetrical anchors (e.g., Chi-sites).
+Takes wig tracks of different genome features (Ago-Seq data for F and R strands, etc.).
+Computes metasignal relative to asymmetrical anchors (e.g., Chi-sites).
 
 **Requirements:** Python 3
 
@@ -146,6 +148,24 @@ signal positioned relative to the anchors.
 **Input:** Files with metagene signal over anchors sets
 
 **Output:** Barplots, t-test results
+
+######################
+
+## Chi_as_anchors_GCSs_downstream_vs_others.py
+
+Takes wig tracks of different genome features (Ago-Seq data for F and R strands, etc.).
+Classifies asymmetrical anchors 1 (e.g., Chi-sites) by their association with symmetrical anchors 2 (e.g., GCSs).
+Groups anchors 1: anchors 1 adjacent to the upstream regions of anchors 2 and other anchors 1. 
+Computes metasignal relative to groups of anchors 1 and statistically compares
+signal positioned relative to the anchors.
+
+**Requirements:** Python 3
+
+**Input:** Files with signal data (WIG), motif sequence, regions to be omitted (e.g. deletions, BroadPeak), anchor 1 sequence, anchor 2 coordinates (bed-like)
+
+**Output:** WIG files with metasignal over anchors, TAB files with average signal for the each of anchors, 
+TAB files with a full (not averaged) signal for the each of anchors, metaplot of average signal over anchors,
+Barplots, t-test results
 
 ######################
 
