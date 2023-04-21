@@ -1,4 +1,4 @@
-# 5pAgos
+# SeAgo & LrAgo
 
 ## What is this project for?
 This is the code that was used for NGS analysis published in paper "Bacterial Argonaute proteins aid cell division in the presence of topoisomerase inhibitors in *Escherichia coli*" 
