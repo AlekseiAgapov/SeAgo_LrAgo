@@ -1,7 +1,7 @@
 # SeAgo & LrAgo
 
 ## What is this project for?
-This is the code that was used for NGS analysis published in paper "Bacterial Argonaute proteins aid cell division in the presence of topoisomerase inhibitors in *Escherichia coli*" 
+This is the code that was used for NGS analysis published in paper "Bacterial Argonaute proteins aid cell division in the presence of topoisomerase inhibitors in *Escherichia coli*" published in Microbiology Spectrum, DOI 10.1128/spectrum.04146-22.
 We sequenced small DNA molecules copurified with prokaryotic Argonaute proteins from *E. coli* cells.
 This repository contains scripts that align NGS reads to the reference DNA and prepare data for visualization.
 
